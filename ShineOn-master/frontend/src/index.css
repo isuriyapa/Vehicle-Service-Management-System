@@ -1,0 +1,495 @@
+.create {
+  margin-left: 25%;
+  background-color: #0014a9;
+  padding: 10px 50px;
+  width: 400px;
+  color: white;
+}
+
+.stock-create{
+  margin-left: 25%;
+  background-color: #b4b2b2;
+  padding: 10px 50px;
+  width: 750px;
+  color: black;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.input-box {
+  padding: 7px;
+  display: block;
+  border: 1px solid black;
+  width: 300px;
+  margin: 20px;
+  border-radius: 30px;
+}
+
+.submitButton {
+  margin: 20px;
+  width: 150px;
+  padding: 10px;
+  background-color: rgb(2, 171, 2);
+  color: white;
+  border: solid 1px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.submitButton:hover {
+  background-color: green;
+}
+
+.cancelButton {
+  margin: 20px;
+  width: 150px;
+  padding: 10px;
+  background-color: red;
+  color: white;
+  border: solid 1px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.cancelButton:hover {
+  background-color: rgb(185, 3, 3);
+}
+
+.stock-list {
+  text-align: center;
+  margin-top: 50px;
+  background-color: #d1d1d1;
+  color: black;
+}
+.stock-list ul li {
+  display: inline-block;
+  width: 150px;
+  border-top: 1px solid black;
+  padding: 5px;
+}
+
+.stock-list ul li {
+  margin: 2px;
+}
+
+.invalid-input {
+  color: red;
+  margin-top: -20px;
+  display: block;
+  margin-left: 20px;
+}
+
+.grn-list {
+  text-align: center;
+  margin-top: 50px;
+  background-color: #d1d1d1;
+  color: black;
+}
+.grn-list ul li {
+  display: inline-block;
+  border-top: 1px solid black;
+  width: 150px;
+  padding: 10px;
+}
+
+.grn-list ul li {
+  margin: 0px;
+}
+
+.delete-button {
+  background-color: red;
+  color: black;
+  height: 25px;
+  width: 75px;
+  border-radius: 20px;
+}
+
+.delete-button:hover {
+  background-color: rgb(185, 3, 3);
+}
+
+.update-button {
+  background-color: #ffe071;
+  color: rgb(0, 0, 0);
+  height: 25px;
+  width: 75px;
+  border-radius: 20px;
+}
+
+.update-button:hover {
+  background-color: #cca000;
+}
+
+.delete-button1 {
+  background-color: red;
+  color: black;
+  height: 25px;
+  width: 55px;
+  border-radius: 20px;
+}
+
+.delete-button1:hover {
+  background-color: rgb(185, 3, 3);
+}
+
+.update-button1 {
+  background-color: #ffe071;
+  color: black;
+  height: 25px;
+  width: 70px;
+  border-radius: 20px;
+}
+
+.update-button1:hover {
+  background-color: #cca000;
+}
+
+.addbutton {
+  height: 30px;
+  width: 250px;
+  font-size: 18px;
+  color: white;
+  background-color: blue;
+  border-radius: 20px;
+}
+
+.addbutton:hover {
+  background-color: rgb(0, 0, 114);
+}
+
+.listbutton {
+  height: 30px;
+  width: 150px;
+  font-size: 18px;
+  color: white;
+  background-color: blue;
+  border-radius: 20px;
+}
+
+.listbutton:hover {
+  background-color: rgb(0, 0, 114);
+}
+
+.printbutton {
+  height: 30px;
+  width: 150px;
+  font-size: 18px;
+  color: rgb(235, 235, 235);
+  background-color: red;
+  border-radius: 20px;
+}
+
+.stock-download-date{
+  width: 400px;
+  height: 50px;
+  font-size: 18px;
+  border-color: transparent;
+  background-color: #d1d1d1;
+  
+}
+
+.st-dwn-btn{
+  padding-left: 100px;
+  padding-top: 20px;
+}
+
+.stock-download-buttons{
+  padding-top: 110px;
+  padding-left: 120px;
+}
+
+.printbutton:hover {
+  background-color: rgb(185, 3, 3);
+}
+
+.button-arrange {
+  display: flex;
+}
+
+h1 {
+  text-align: center;
+}
+
+.stock-searchbar {
+  height: 40px;
+  width: 450px;
+  margin-left: 750px;
+  border-radius: 5px;
+  border-color: blue;
+  font-size: 20px;
+}
+
+#search-icon {
+  color: royalblue;
+}
+
+h3 {
+  color: black;
+  text-align: center;
+}
+
+h2 {
+  color: black;
+  font-size: 24px;
+  text-align: center;
+}
+
+/* Supplier css */
+.button1 {
+  display: inline-block;
+  /* padding: '8px 20px'; */
+  font-size: 30px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #e61a0b;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 2px #999;
+  width: 250px;
+  padding: 25px;
+  margin: 0 15px;
+}
+
+.button1:hover {
+  color: white;
+  background-color: #231a76;
+}
+
+.button1:active {
+  background-color: #5b27a9;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+ 
+}
+
+.button2 {
+  display: inline-block;
+  padding: 8px 20px;
+  font-size: 13px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #e61a0b;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button2:hover {
+  background-color: #231a76;
+}
+
+.button2:active {
+  background-color: #231a76;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+/* homepage */
+.home {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 100px;
+}
+.supplier-details {
+  background-image: url(../src/images/details\ back1.png);
+  border-radius: 4px;
+  margin: 20px auto;
+  padding: 20px;
+  position: relative;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.05);
+}
+.supplier-details h4 {
+  margin: 0 0 10px 0;
+  font-size: 1.5em;
+  color: #f5eff3;
+  font-family: 'Poppins';
+}
+.supplier-details p {
+  margin: 0;
+  font-size: 0.9em;
+  color: #020612;
+}
+.supplier-details span {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  background: #cb2424;
+  padding: 6px;
+  border-radius: 50%;
+  color: #080808;
+}
+.supplier-details span:hover {
+  background: #ecd228;
+}
+
+/* new supplier form */
+input {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #03030e;
+}
+
+form button {
+  background-color: #e61a0b;
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  font-family: 'Poppins';
+  border-radius: 4px;
+  cursor: pointer;
+}
+form button:hover {
+  background-color: #0e0f6d;
+}
+
+div.error {
+  padding: 10px;
+  background: #ee1a1a;
+  border: 1px solid var(--error);
+  color: var(--error);
+  border-radius: 4px;
+  margin: 20px 0;
+}
+input.error {
+  border: 1px solid var(--error);
+}
+
+/* navbar */
+nav {
+  display: flex;
+  align-items: center;
+}
+nav a {
+  margin-left: 10px;
+}
+nav button {
+  background: #fff;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-family: 'Poppins';
+  cursor: pointer;
+  font-size: 1em;
+  margin-left: 10px;
+}
+.alog {
+  background-color: #29f537;
+}
+.alog:hover {
+  background-color: #0d0c0c;
+}
+
+/* auth forms */
+form.signup,
+form.login {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 4px;
+  color: #181717;
+}
+
+.req {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  font-family: Arial, sans-serif;
+}
+
+.req h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.req label {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.req input,
+.req select,
+.req textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.req textarea {
+  height: 100px;
+}
+
+.req button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.req button:hover {
+  background-color: #3e8e41;
+}
+
+/*..........*/
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin: 0 10px;
+  font-size: 16px;
+}
+
+.buttons button:hover {
+  background-color: #3e8e41;
+}
+
+/* Navbar */
+
+.navbar-light .navbar-nav .nav-link {
+  color: #ffffff; /* change to your desired color */
+}
+
+/* Change color when hovering over a navbar item */
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #ffbe63; /* change to your desired color */
+}
+
+/* Change color of active navbar item */
+.navbar-light .navbar-nav .active > .nav-link {
+  color: #ffbb00; /* change to your desired color */
+}
